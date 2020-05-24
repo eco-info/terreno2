@@ -257,7 +257,7 @@ osg::Vec3d OVNIManipulator::fromQuat(const osg::Quat& quat, bool degrees)
 	return osg::Vec3d(heading, pitch, 0); // (não usa roll)
 }
 
-void OVNIManipulator::calcAcc(osgViewer::Viewer* viewer) // calcula aceleração do OVNI
+void OVNIManipulator::calcAcc() // calcula aceleração do OVNI
 {
 	// velocidade frontal
 	if (!keyW && !keyS)

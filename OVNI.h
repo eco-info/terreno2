@@ -23,7 +23,7 @@ public:
 	virtual float pickDown( osg::Vec3d pos );
 	virtual bool performMovement();
 	virtual bool handleMouseMove( const osgGA::GUIEventAdapter& ea, osgGA::GUIActionAdapter& us );
-	void calcAcc(osgViewer::Viewer*); // calcula aceleração do OVNI
+	void calcAcc(); // calcula aceleração do OVNI
 protected:
 	bool keyW=false,
 		keyA=false,

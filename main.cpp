@@ -23,7 +23,7 @@ int main( int argc, char** argv )
 
 	while ( !cena->viewer.done() )
 	{
-		OVNI->calcAcc( &cena->viewer );
+		OVNI->calcAcc();
 		cena->viewer.frame();
 	}
 
