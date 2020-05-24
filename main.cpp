@@ -1,9 +1,6 @@
 // main.cpp
 // g++ main.cpp cena.cpp OVNI.cpp HUD.cpp -losg -losgDB -losgGA -losgText -losgUtil -losgViewer -o main
 
-#include <osgDB/ReadFile>
-#include <osgGA/FirstPersonManipulator>
-#include <osgViewer/Viewer>
 #include "cena.h"
 #include "OVNI.h"
 #include "HUD.h"
